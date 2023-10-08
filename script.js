@@ -9,7 +9,7 @@ if (angka > 15) {
 }
 console.log("Hasil if...else statement: " + hasilIfElse);
 
-// Contoh nested if statement
+// Contoh nested if 
 let nilai = 80;
 let hasilNestedIf = "";
 
@@ -20,9 +20,9 @@ if (nilai >= 80) {
 } else {
     hasilNestedIf = "Anda perlu belajar lebih keras";
 }
-console.log("Hasil nested if statement: " + hasilNestedIf);
+console.log("Hasil nested if : " + hasilNestedIf);
 
-// Contoh switch case statement
+// Contoh switch case 
 let hari = "Sabtu";
 let hasilSwitchCase = "";
 
@@ -41,7 +41,7 @@ switch (hari) {
     default:
         hasilSwitchCase = "Tidak ada hari yang cocok.";
 }
-console.log("Hasil switch case statement: " + hasilSwitchCase);
+console.log("Hasil switch case : " + hasilSwitchCase);
 
 // Contoh for statement
 let hasilForStatement = "";
@@ -51,25 +51,25 @@ for (let i = 0; i < 7; i++) {
 }
 console.log("Hasil for statement:\n" + hasilForStatement);
 
-// Contoh while statement
+// Contoh while
 let angkaWhile = 5;
-let hasilWhileStatement = "";
+let hasilWhile = "";
 
 while (angkaWhile <= 10) {
-    hasilWhileStatement += "Angka: " + angkaWhile + "\n";
+    hasilWhile += "Angka: " + angkaWhile + "\n";
     angkaWhile++;
 }
-console.log("Hasil while statement:\n" + hasilWhileStatement);
+console.log("Hasil while:\n" + hasilWhile);
 
-// Contoh do while statement
+// Contoh do while 
 let angkaDoWhile = 1;
-let hasilDoWhileStatement = "";
+let hasilDoWhile = "";
 
 do {
-    hasilDoWhileStatement += "Angka: " + angkaDoWhile + "\n"; 
+    hasilDoWhile += "Angka: " + angkaDoWhile + "\n"; 
     angkaDoWhile++;
 } while (angkaDoWhile <= 20);
-console.log("Hasil do while statement:\n" + hasilDoWhileStatement);
+console.log("Hasil do while:\n" + hasilDoWhile);
 
 // Contoh function
 const perkalian = function(x, y) {
