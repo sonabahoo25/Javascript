@@ -7,3 +7,5 @@ Source code :
 5. while
 6. do while
 7. function
+
+run --> node script.js
